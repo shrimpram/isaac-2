@@ -1,0 +1,9 @@
+*.plist
+*.iFiction
+*.blurb
+*.skein
+
+*Build
+*Index
+
+*Release
