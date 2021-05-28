@@ -12993,13 +12993,12 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! When play begins:
 [ R_851 ;
     if (debug_rules) DB_Rule(R_851, 851);
-    ! [2: say ~[italic type]This game is a work of fiction. Any similarity to persons living or dead, or actual events is purely coincidental and was not the intent of the creator. Enjoy...[roman type][line break]Content Warning: This game has some graphic depictions of injury~]
+    ! [2: say ~[italic type]This game is a work of fiction. Any similarity to persons living or dead, or actual events is purely coincidental and was not the intent of the creator. Enjoy...[roman type][line break]~]
     say__p=1;! [3: italic type]
     ParaContent(); style underline;! [4: ~This game is a work of fiction. Any similarity to persons living or dead, or actual events is purely coincidental and was not the intent of the creator. Enjoy...~]
     ParaContent(); print "This game is a work of fiction. Any similarity to persons living or dead, or actual events is purely coincidental and was not the intent of the creator. Enjoy...";! [5: roman type]
     ParaContent(); style roman;! [6: line break]
-    ParaContent(); new_line;! [7: ~Content Warning: This game has some graphic depictions of injury~]
-    ParaContent(); print "Content Warning: This game has some graphic depictions of injury"; .L_Say1; .L_SayX1;! [8: now the command prompt is ~This is a text adventure/interactive fiction game. Do you want a tutorial? (yes/no) >~]
+    ParaContent(); new_line; .L_Say1; .L_SayX1;! [7: now the command prompt is ~This is a text adventure/interactive fiction game. Do you want a tutorial? (yes/no) >~]
     BlkValueCopy((Global_Vars-->1), TX_L_112);
     rfalse;
 ];

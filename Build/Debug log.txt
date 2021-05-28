@@ -14,7 +14,7 @@ Reading language definition from <C:\Program Files (x86)\Inform 7\Internal\Langu
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 5758 words long.
+I've now read your source text, which is 5749 words long.
 
 
 -----------------------------------------------------
@@ -178,7 +178,7 @@ Phase XIII ... Compilation now complete
 
 CAT "A photoshopped image of the LA Noire cover art, with Mr. Pallone replacing protagonist Cole Phelps"
 Total of 123 files written as streams.
-CPU time: 130 centiseconds
+CPU time: 163 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

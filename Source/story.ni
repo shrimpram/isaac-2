@@ -27,7 +27,7 @@ Include Conversation Framework by Eric Eve.
 Release along with an interpreter. Release along with cover art ("A photoshopped image of the LA Noire cover art, with Mr. Pallone replacing protagonist Cole Phelps").
 
 When play begins:
-	say "[italic type]This game is a work of fiction. Any similarity to persons living or dead, or actual events is purely coincidental and was not the intent of the creator. Enjoy...[roman type][line break]Content Warning: This game has some graphic depictions of injury";
+	say "[italic type]This game is a work of fiction. Any similarity to persons living or dead, or actual events is purely coincidental and was not the intent of the creator. Enjoy...[roman type][line break]";
 	Now the command prompt is "This is a text adventure/interactive fiction game. Do you want a tutorial? (yes/no) >".
 	
 Intro is a room. The player is in Intro.
