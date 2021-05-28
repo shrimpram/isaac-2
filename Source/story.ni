@@ -435,7 +435,7 @@ Instead of dropping Paper from Rakesh's:
 
 Rakesh is a person in Rakesh's Restaurant.
 
-After saying hello to Mike when the greeting type is explicit:
+After saying hello to Rakesh when the greeting type is explicit:
 	say "'Hey Rakesh, how's the restaurant?[paragraph break]Rakesh continued sorting the register, unaware I even spoke.";
 	
 After saying hello to Rakesh when the greeting type is implicit:
@@ -559,6 +559,7 @@ After reading a command when the command prompt is "Knock sequence: ":
 		if player is wearing sports coat:
 			say "[paragraph break]I walked up to apartment [AptNo] and knocked on the door. The peephole opened and I heard a voice that seemed like it had just swallowed a spoonful of cinnamon.[paragraph break]'Ah. Ya must be the guy Pro sent. Come on in.'[paragraph break]The door opened and I looked inside to the musty room, half the wallpaper peeling off, and generic furniture giving it a fake lived-in feel. No sooner had I stepped in when the door shut behind me and Rakesh stepped out from the dark.[paragraph break]'Now, here's the thing.'[line break]His accent was as thick as his mustache.[line break]'The things I hate the most are customers who dine and dash, and snoopers, and you just so happen to fall into the last category. Looks like me and my friend here are gonna need to have a bit of a chat with you.'[paragraph break]";
 			say "I felt a cloth wrap around my face and was lulled into a sleep by the sweet smell of chloroform";
+			end the story finally;
 			now the command prompt is ">";
 			now ending is 1;
 			reject the player's command;
@@ -570,3 +571,4 @@ After reading a command when the command prompt is "Knock sequence: ":
 		say "Silence. The door didn't even budge.";
 		now the command prompt is ">";
 		reject the player's command;
+	end the story finally;
